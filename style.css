@@ -71,6 +71,25 @@ body {
 
 
 
+/* Contact Link */
+
+.connect-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.connect-link:hover {
+    color: #00bcd4;
+    text-decoration: underline;
+}
+
+
+
 /* .card::before {
   content: '';
   position: absolute;
