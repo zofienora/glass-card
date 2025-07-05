@@ -95,42 +95,26 @@ body {
     transition: transform 0.3s ease;    
 }
 
+/* ---------MAIL----------- */
 
-
-/* .card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.8),
-    transparent
-  );
+.mail {
+  margin: 3em 0;
 }
 
-.card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 1px;
-  height: 100%;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.8),
-    transparent,
-    rgba(255, 255, 255, 0.3)
-  );
+.mail-link {
+  color: #262626;
+  background-color: #EAEAEA;
+  padding: .5em 1em;
+  border-radius: 100px;
+  font-size: 1rem;
+  font-weight: 200;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
- */
 
-
-
-
+.mail-link:hover {
+  background-color: #262626;
+  color: #EAEAEA;
+}
 
 
 .connect-list {
@@ -143,11 +127,11 @@ a {
     text-decoration: none;
     margin:0;
     padding: 0;
+    color: white
 }
 
 li {
     list-style: none;
     padding: 0;
     margin: 0;
-/*     margin: 0 10px;
- */}
+}
