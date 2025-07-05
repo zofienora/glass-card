@@ -81,7 +81,7 @@ p {
 /* ------------GLASS CARD----------------- */
 .card {
     width: 80%;
-    max-width: 600px;
+    max-width: 400px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(7px);
